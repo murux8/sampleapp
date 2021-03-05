@@ -22,3 +22,4 @@ script:
     env: "dev"
     on:
       branch: develop
+    
