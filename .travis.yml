@@ -14,12 +14,12 @@ script:
   - echo "Skipping test"
   
 deploy:
-  provider: elasticbeanstalk
-  access_key_id: $ACCESS_KEY
-  secret_access_key: $SECRET_ACCESS_KEY
-  region: "eu-central-1"
-  app: "muruganantham"
-  env: "muruganantham-env"
-  bucket_name: "24i-build-artifact"
-  on:
-    branch: release
+  - provider: elasticbeanstalk
+    access_key_id: $ACCESS_KEY
+    secret_access_key: $SECRET_ACCESS_KEY
+    region: "eu-central-1"
+    app: "muruganantham"
+    env: "muruganantham-env"
+    bucket_name: "24i-build-artifact"
+    on:
+      branch: release
