@@ -23,3 +23,5 @@ deploy:
   app: "muruganantham"
   env: "muruganantham-env"
   bucket_name: "24i-build-artifact"
+  on:
+    branch: develop
