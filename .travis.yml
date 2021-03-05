@@ -10,6 +10,7 @@ before_install:
   - docker build -f Dockerfile -t murugan/hello_test .
 
 script:
+  - npm run test
   - echo "docker run murugan/hello_test"
 
 deploy:
