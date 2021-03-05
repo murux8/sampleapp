@@ -1,0 +1,20 @@
+{
+  "name": "sampleapp",
+  "version": "1.0.0",
+  "description": "Dev push test.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/murux8/sampleapp.git"
+  },
+  "keywords": [],
+  "author": "Murugan",
+  "license": "GPL-3",
+  "bugs": {
+    "url": "https://github.com/murux8/sampleapp/issues"
+  },
+  "homepage": "https://github.com/murux8/sampleapp#readme"
+}
