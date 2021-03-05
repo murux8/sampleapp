@@ -2,7 +2,9 @@
 
 // Load express module with `require` directive
 var express = require('express');
+const { Server } = require('http');
 var app = express();
+module.exports = Server;
 
 // Define request response in root URL. (/)
 app.get('/', function(req, res) {
