@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/murux8/sampleapp/issues"
   },
-  "homepage": "https://github.com/murux8/sampleapp#readme"
+  "homepage": "https://github.com/murux8/sampleapp#readme",
+  "devDependencies": {
+    "express": "^4.17.1"
+  }
 }
