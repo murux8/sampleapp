@@ -19,8 +19,7 @@ deploy:
   secret_access_key:
     secure: $SECRET_ACCESS_KEY
   region: "eu-central-1"
-  app: "hello"
-  env: "dev"
+  app: "muruganantham"
+  env: "muruganantham-env"
   on:
     branch: develop
-    
