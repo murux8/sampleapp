@@ -12,14 +12,14 @@ before_install:
 script:
   - docker run murugan/hello_test
 
-  deploy:
-    provider: elasticbeanstalk
-    access_key_id: $ACCESS_KEY
-    secret_access_key:
-      secure: $SECRET_ACCESS_KEY
-    region: "eu-central-1"
-    app: "hello"
-    env: "dev"
-    on:
-      branch: develop
+deploy:
+  provider: elasticbeanstalk
+  access_key_id: $ACCESS_KEY
+  secret_access_key:
+    secure: $SECRET_ACCESS_KEY
+  region: "eu-central-1"
+  app: "hello"
+  env: "dev"
+  on:
+    branch: develop
     
